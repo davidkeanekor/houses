@@ -1,0 +1,55 @@
+body {
+  font: 12px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+line.axis2 {
+  display: none;
+}
+
+path.line {
+	fill: none;
+  stroke-width: 3;
+}
+
+.tick line{
+    stroke: lightgrey;
+    opacity: 0.4;
+}
+
+.ysep {
+	stroke:black;
+	stroke-width:2;
+}
+
+.ysep2 {
+	stroke:darkgrey;
+	stroke-width:2;
+	stroke-dasharray: 10,10;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+#readme {
+	width: 960px;
+}
+
+
+#chart {
+	width: 960px;
+	height: 500px;
+}
