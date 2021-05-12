@@ -1,0 +1,53 @@
+<html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<br><br>
+<div id="chart" style="float: left;"></div>
+<div style="float: left; margin: 0px 0px 0px 40px;">
+	<div>
+		<strong>Statistic</strong>
+		<form name="selS" action="">
+		  <input type="radio" id="radio101" name="selS" onclick="selStat(0)" checked>T1: National - all residential<br>
+		  <input type="radio" id="radio102" name="selS" onclick="selStat(1)">T2: National - houses<br>
+		  <input type="radio" id="radio103" name="selS" onclick="selStat(2)">T3: National - apartments<br>
+		  <input type="radio" id="radio104" name="selS" onclick="selStat(3)">T4: ex-Dublin - all residential<br>
+		  <input type="radio" id="radio105" name="selS" onclick="selStat(4)">T5: ex-Dublin - houses<br>
+		  <input type="radio" id="radio106" name="selS" onclick="selStat(5)">T6: Dublin - all residential<br>
+		  <input type="radio" id="radio107" name="selS" onclick="selStat(6)">T7: Dublin - houses<br>
+		  <input type="radio" id="radio108" name="selS" onclick="selStat(7)">T8: Dublin - apartments<br>
+		  <input type="radio" id="radio109" name="selS" onclick="selStat(8)">T9: Dublin City - houses<br>
+		  <input type="radio" id="radio110" name="selS" onclick="selStat(9)">T10: Dún Laoghaire-Rathdown - houses<br>
+		  <input type="radio" id="radio111" name="selS" onclick="selStat(10)">T11: Fingal - houses<br>
+		  <input type="radio" id="radio112" name="selS" onclick="selStat(11)">T12: South Dublin - houses<br>
+		  <input type="radio" id="radio113" name="selS" onclick="selStat(12)">T13: ex-Dublin - apartments<br>
+		  <input type="radio" id="radio114" name="selS" onclick="selStat(13)">T14: Midland - houses<br>
+		  <input type="radio" id="radio115" name="selS" onclick="selStat(14)">T15: West - houses<br>
+		  <input type="radio" id="radio116" name="selS" onclick="selStat(15)">T16: South-West - houses<br>
+		  <input type="radio" id="radio117" name="selS" onclick="selStat(16)">T17: Border - houses<br>
+		  <input type="radio" id="radio118" name="selS" onclick="selStat(17)">T18: Mid-East - houses<br>
+		  <input type="radio" id="radio119" name="selS" onclick="selStat(18)">T19: Mid-West - houses<br>
+		  <input type="radio" id="radio120" name="selS" onclick="selStat(19)">T20: South-East - houses<br>
+		</form>
+		<br>
+		<strong>Change</strong>
+		<form name="selC" action="">
+		  <input type="radio" id="radio21" name="selC" onclick="selChange(0)" checked>Yearly<br>
+		  <input type="radio" id="radio22" name="selC" onclick="selChange(1)">Quarterly<br>
+		  <input type="radio" id="radio23" name="selC" onclick="selChange(2)">Monthly<br>
+		</form>
+	</div>
+</div>
+<br>
+<div style="clear: both"></div>
+<div id="readme"></div>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//cdn.rawgit.com/showdownjs/showdown/1.3.0/dist/showdown.min.js"></script>
+<script src="/pinsterdev/raw/a2fcc47fae884342e190/util.js"></script>
+<script src="https://api.github.com/gists/0f82dc8380acfd77299724369184a01d?callback=gistDataLoaded"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
